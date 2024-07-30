@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head >
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		.form{
+			border: 1.5px solid black;
+			width: 600px;
+			text-align: center;
+			padding: 2rem;
+			background-color:antiquewhite; 
+				}
+		.filler{
+			width:80%;
+			border: 1px solid black;
+			height:1.4rem;
+/*			text-align: start;*/
+			padding-left: 1rem;
+			border-radius: 3px;
+			
+		}
+		.filler:hover{
+			border: 1px solid blue;
+			color: blue;
+			
+		}
+		.button{
+			height: 1.7rem;
+			width: 13%;
+			background-color: blue;
+			color: aliceblue;
+			border-radius: 6px;
+		}
+		
+		.button:hover{
+			background-color: #0028D1;
+		}
+		
+	</style>
+</head>
+
+<body>
+	<fieldset>
+		<legend>Submit any query here</legend>
+		<form class ="form">
+	<input class="filler"   type="text" id="name" placeholder="Full Name" ><br><br>	
+	<input  type="text" class="filler" id="email" placeholder="Your Email Address">
+<!--		<label for="email"></label>-->
+		<br><br>
+		<input   type="text" id="subject" class="filler" placeholder="Subject">
+		<br><br>
+		<input type="text" id="comment" class="filler" placeholder="type your message here"  ><br><br>
+<!--
+		<submit>
+		Submit
+		</submit>
+-->  <input type="Submit" value="Submit" class="button">
+	</form></fieldset>
+</body>
+</html>
